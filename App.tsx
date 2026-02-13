@@ -26,7 +26,7 @@ const App: React.FC = () => {
   // Initialize audio
   useEffect(() => {
     //const audio = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3');
-    const audio = new Audio("/music/love.mp3");
+    const audio = new Audio("/music/love.mp3.mp3");
     audio.loop = true;
     audioRef.current = audio;
 
