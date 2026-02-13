@@ -53,11 +53,11 @@ const HomeScene: React.FC<HomeSceneProps> = ({ onSubmit }) => {
         
         <form onSubmit={handleSubmit} className="space-y-6 relative z-10">
           <div className="space-y-2">
-            <label className="text-sm font-semibold text-rose-200/80 ml-1 uppercase tracking-widest">Partner's Name</label>
+            <label className="text-sm font-semibold text-rose-200/80 ml-1 uppercase tracking-widest">Your Name</label>
             <input
               type="text"
               name="partnerName"
-              placeholder="Vishnu, Priya..."
+              placeholder="Enter your name"
               className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 focus:outline-none focus:ring-2 focus:ring-rose-500/30 transition-all placeholder:text-white/20 text-lg"
               value={formData.partnerName}
               onChange={handleInputChange}
