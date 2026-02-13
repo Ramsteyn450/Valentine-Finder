@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { AppState, FormData } from './types';
-import HomeScene from './components/HomeScene';
-import LoadingScene from './components/LoadingScene';
-import VideoScene from './components/VideoScene';
-import SharePage from './components/SharePage';
-import Background from './components/Background';
+import HomeScene from './HomeScene';
+import LoadingScene from './LoadingScene';
+import VideoScene from './VideoScene';
+import SharePage from './SharePage';
+import Background from './Background';
 import confetti from 'canvas-confetti';
 
 const App: React.FC = () => {
