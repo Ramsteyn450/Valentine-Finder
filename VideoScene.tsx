@@ -12,11 +12,13 @@ const VideoScene: React.FC<VideoSceneProps> = ({ onEnd }) => {
   const [videoUrl, setVideoUrl] = useState('');
 
   const videoLinks = [
-    'https://raw.githubusercontent.com/Ramsteyn450/videos/main/valentines%20day%20video.mp4',
-    'https://raw.githubusercontent.com/Ramsteyn450/videos/main/YouCut_20260212_225700531.mp4',
-    'https://raw.githubusercontent.com/Ramsteyn450/videos/main/YouCut_20260212_225505808.mp4',
-    'https://raw.githubusercontent.com/Ramsteyn450/videos/main/YouCut_20260212_225036245.mp4',
-    'https://raw.githubusercontent.com/Ramsteyn450/videos/main/YouCut_20260212_224630027.mp4',
+    "https://raw.githubusercontent.com/Ramsteyn450/videos/main/valentines%20day%20video.mp4",
+    "https://raw.githubusercontent.com/Ramsteyn450/videos/main/YouCut_20260212_224933609.mp4",
+    "https://raw.githubusercontent.com/Ramsteyn450/videos/main/YouCut_20260212_225700531.mp4",
+    "https://raw.githubusercontent.com/Ramsteyn450/videos/main/YouCut_20260212_225407114.mp4",
+    "https://raw.githubusercontent.com/Ramsteyn450/videos/main/YouCut_20260212_224630027.mp4",
+    "https://raw.githubusercontent.com/Ramsteyn450/videos/main/YouCut_20260212_225036245.mp4",
+    "https://raw.githubusercontent.com/Ramsteyn450/videos/main/YouCut_20260212_224630027.mp4",
   ];
 
   useEffect(() => {
